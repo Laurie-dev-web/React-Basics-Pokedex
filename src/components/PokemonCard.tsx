@@ -1,3 +1,5 @@
+import "./PokemonCard.css";
+
 type PokemonData = {
   pokemon: { name: string; imgSrc?: string };
 };
@@ -12,10 +14,10 @@ function PokemonCard({ pokemon }: PokemonData) {
     );
   } else {
     return (
-      <>
-        <figcaption>{pokemon.name}</figcaption>
-        <img src={pokemon.imgSrc} alt={pokemon.name} />
-      </>
+      <section className={`card ${pokemon.name}`}>
+        <figcaption className="texte">{pokemon.name}</figcaption>
+        <img className="image" src={pokemon.imgSrc} alt={pokemon.name} />
+      </section>
     );
   }
 }
