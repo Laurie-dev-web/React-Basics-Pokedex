@@ -123,3 +123,17 @@ export default PokemonCard;
 # React Basics 06 - Pokédex - Utiliser un state - Solution
 
 Voir directement sur mon code actuel.
+
+## React Basic 07 - 10
+
+Durant tout l'exercice je changeais de branche sans jamais le push... alors il n'y a que mon events.1.
+
+07 -> J'ai eu du mal a commencer et a placer mon
+
+08 -> j'ai appris grace a loic comment changer de couleurs les cartes des pokemon individuellement.
+PokemonCard.css (ligne 16 a 31)
+
+09 -> Création de navbar, ça allait mieux pour placer mes boutons dans la navbar.
+(j'ai trouver ça compliquer)
+
+10 -> j'ai pris pas mal de temps a trouver commetn l'intégrer dans mon code.
